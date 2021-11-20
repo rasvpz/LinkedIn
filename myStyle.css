@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+body{
+    margin: 0px;
+
+    font-family: 'Roboto', sans-serif;
+}
+.row {
+  display: flex;
+  padding-left: 100px;
+}
+.rowFirst {
+  display: flex;
+}
+.rowscnd {
+  display: flex;
+  padding-left: 100px;
+}
+
+.column {
+  flex: 50%;
+  padding: 10px;
+  height: 300px;
+}
+.row1 {
+  display: flex;
+  padding-left: 100px;
+}
+
+.column1 {
+  flex: 50%;
+  padding: 10px;
+  height: 300px;
+}
+.navbar{
+    height:65px;
+    padding:10px;
+    margin-left: 100px;
+}
+.alignment{
+    padding-left: 50%;
+    padding-top: 20px !important;
+}
+.joinNow{
+    padding-right:20px;
+}
+.signIn{
+    border:1px solid grey;
+    padding: 10px;
+    border-color: blue;
+    color:blue;
+    font-weight: bold;
+    border-radius: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.bannerText{
+    font-size: 50px;
+    color: #905a4b;
+}
+.bannerText2{
+    font-size: 45px;
+    color: #000000;
+    font-weight: lighter;
+        padding-left: 100px;
+}
+
+.bannerText1{
+    font-size: 45px;
+    color: #000000;
+    font-weight: lighter;
+
+}
+
+.bannerPara{
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding: 10px;
+    width: 60%;
+    color: black;
+    font-weight: bold;
+}
+.column3 {
+  float: left;
+  width: 40%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+. {
+  float: left;
+  width: 60%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+.column6{
+  float: left;
+  width: 40%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+.column4 {
+  float: left;
+  width: 60%;
+  padding: 10px;
+  height: 300px;
+  padding-left: 150px;
+}
+.topSpace{
+    margin-top: 250px;
+}
+.linkButtons{
+    text-decoration: none;
+    color: #656463;
+    font-size: 20px;
+    padding:15px;
+    font-weight: bold;
+    border-radius: 25px;
+}
+.bgColor{
+    background-color: #e6e5e4;
+}
+.showMore{
+    text-decoration: none;
+    color: black;
+}
+.bordr{
+    border: 1px solid #656463;
+}
+
+.rowgotaPost {
+  display: flex;
+  height: 280px;
+  background-color: #f1ece5;
+  margin-top: 50px;
+}
+
+.columngotaPostLft {
+  flex: 30%;
+  padding: 10px;
+  height: 300px;
+  padding-left: 100px;
+}
+.columngotaPostRght {
+  flex: 70%;
+  padding: 10px;
+  height: 300px;
+}
+.btn1{
+    padding: 20px;
+    border:1px solid grey;
+    border-radius: 50px;
+}
+.rowRightPeople {
+  display: flex;
+  margin-top: 100px;
+}
+.columnRightPeopleLft {
+  flex: 50%;
+  padding: 10px;
+  height: 300px;
+  padding-left: 100px;
+  padding-right: 70px;
+
+}
+.columnRightPeopleRgt {
+  flex: 50%;
+  padding: 10px;
+  height: 300px;
+}
+.rowConnectPeople {
+  display: flex;
+  margin-top: 200px;
+}
+.columnConnectPeopleLft {
+  flex: 50%;
+  padding: 10px;
+  height: 300px;
+  padding-left: 100px;
+}
+.columnConnectPeopleRgt {
+  flex: 50%;
+  padding: 10px;
+  height: 300px;
+}
+.btnFindPeople{
+    padding: 15px;
+    border: 1px solid grey;
+    border-radius: 50px;
+}
+.btnFindPeople2{
+    padding: 20px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    width: 50%;
+}
